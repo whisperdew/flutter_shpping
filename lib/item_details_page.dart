@@ -25,7 +25,7 @@ class _ItemDetailsPageState extends State<ItemDetailsPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Main"),
+        title: const Text("상품 상세"),
       ),
       body: SingleChildScrollView(
         child: Column(

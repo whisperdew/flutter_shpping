@@ -15,7 +15,7 @@ class _ItemListPageState extends State<ItemListPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Main"),
+        title: const Text("상품리스트"),
       ),
       body: GridView.builder(
         itemCount: productList.length,
